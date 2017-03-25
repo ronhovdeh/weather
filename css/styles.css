@@ -1,6 +1,19 @@
 /********************
 YOUR STYLES
 *******************/
+h1{
+  display:flex;
+  justify-content: space-between;
+  font-family:"Avenir";
+}
+.sun {
+background: yellow; 
+background: -o-linear-gradient(left, #F2994A, #F2C94C);
+background: linear-gradient(left,#F2C94C,#F2994A); 
+}
+
+
+
 .temp {
   color: red;
 }
@@ -23,6 +36,6 @@ YOUR STYLES
 
 
 
-}
+
 
 
