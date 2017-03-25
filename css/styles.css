@@ -25,31 +25,12 @@ background:lightgray;
 background:linear-gradient(right,#29120b, #7e1d17,#ffcb2b)
 }
 
-
-
-
-
-.temp {
-  color: red;
+button {
+display:flex;
+justify-content: center;
+margin:auto;
+font-family::"Avenir";
 }
-
-.city {
-  color: green;
-}
-
-.state {
-  color: blue;
-}
-
-.image img {
-  outline: 5px solid red;
- }
-
-
-
-
-
-
 
 
 
