@@ -26,12 +26,110 @@ background:linear-gradient(right,#29120b, #7e1d17,#ffcb2b)
 }
 
 button {
-display:flex;
+display:grid;
 justify-content: center;
 margin:auto;
 font-family::"Avenir";
 }
 
 
+i {
+  color: black;
+  font-family: weather;
+  font-size: 18em;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.0;
+  text-shadow: 0 0 20px;
+  text-transform: none;
+  display: flex;
+  justify-content: left;
+}
 
 
+.icon-0:before { content: ":"; }
+.icon-1:before { content: "p"; }
+.icon-2:before { content: "S"; }
+.icon-3:before { content: "Q"; }
+.icon-4:before { content: "S"; }
+.icon-5:before { content: "W"; }
+.icon-6:before { content: "W"; }
+.icon-7:before { content: "W"; }
+.icon-8:before { content: "W"; }
+.icon-9:before { content: "I"; }
+.icon-10:before { content: "W"; }
+.icon-11:before { content: "I"; }
+.icon-12:before { content: "I"; }
+.icon-13:before { content: "I"; }
+.icon-14:before { content: "I"; }
+.icon-15:before { content: "W"; }
+.icon-16:before { content: "I"; }
+.icon-17:before { content: "W"; }
+.icon-18:before { content: "U"; }
+.icon-19:before { content: "Z"; }
+.icon-20:before { content: "Z"; }
+.icon-21:before { content: "Z"; }
+.icon-22:before { content: "Z"; }
+.icon-23:before { content: "Z"; }
+.icon-24:before { content: "E"; }
+.icon-25:before { content: "E"; }
+.icon-26:before { content: "3"; }
+.icon-27:before { content: "a"; }
+.icon-28:before { content: "A"; }
+.icon-29:before { content: "a"; }
+.icon-30:before { content: "A"; }
+.icon-31:before { content: "6"; }
+.icon-32:before { content: "1"; }
+.icon-33:before { content: "6"; }
+.icon-34:before { content: "1"; }
+.icon-35:before { content: "W"; }
+.icon-36:before { content: "1"; }
+.icon-37:before { content: "S"; }
+.icon-38:before { content: "S"; }
+.icon-39:before { content: "S"; }
+.icon-40:before { content: "M"; }
+.icon-41:before { content: "W"; }
+.icon-42:before { content: "I"; }
+.icon-43:before { content: "W"; }
+.icon-44:before { content: "a"; }
+.icon-45:before { content: "S"; }
+.icon-46:before { content: "U"; }
+.icon-47:before { content: "S"; }
+
+
+
+/********************
+MEDIA QUERIES
+*******************/
+/* Mobile: 320px = 20em */
+@media screen and (min-width: 20em) { 
+
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: yellow;
+      
+  }
+  
+}
+
+/* Tablet:  768px = 160em */
+@media screen and (min-width: 48em)  {
+
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: lightgreen;
+       
+  }
+
+}
+
+/* Desktop: 1280px = 80em */
+@media screen and (min-width: 80em) { 
+  
+  /* Diagnostic Styling. Delete When Done. */
+  body:before {
+       background: orange;
+       
+  }
+
+}
