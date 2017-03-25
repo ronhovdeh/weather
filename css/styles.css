@@ -17,6 +17,17 @@ background: linear-gradient(right, lightgray, white);
 background: linear-gradient(left, lightgray, white);
 }
 
+.rainy{
+background:lightgray;
+}
+
+.storm{
+background:linear-gradient(right,#29120b, #7e1d17,#ffcb2b)
+}
+
+
+
+
 
 .temp {
   color: red;
