@@ -12,7 +12,8 @@ background: -o-linear-gradient(left, #F2994A, #F2C94C);
 background: linear-gradient(left,#F2C94C,#F2994A); 
 }
 .clouds{
-
+background: lightgray;
+background: linear-gradient(right, lightgray, white);
 }
 
 
